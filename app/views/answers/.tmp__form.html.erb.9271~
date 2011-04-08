@@ -1,0 +1,6 @@
+<p class="answer_field">
+<%= form.label :content %>: 
+<%= form.text_field :content %>
+<%= form.hidden_field :_destroy %>
+<%= link_to_function("Remove", "remove_link(this)")  %>
+</p>
